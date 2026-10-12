@@ -1,3 +1,21 @@
+# MGL — fork
+
+> **About this fork.** It is an experimental fork of
+> [openglonmetal/MGL](https://github.com/openglonmetal/MGL), kept by
+> [@MilkmanAbi](https://github.com/MilkmanAbi) while looking into whether MGL
+> could render for Linux guests on macOS. **The work in this fork was done
+> with Claude**, and it is a side experiment — nothing here is production
+> code and none of it is being maintained for general use.
+>
+> **It has nothing to do with [MSL](https://github.com/MilkmanAbi/MSL).** MSL
+> is a separate, long-running project of its author's own design; no MGL code
+> is vendored into it, and the attribution here says nothing about how that
+> project was built.
+>
+> Upstream's README follows unchanged.
+
+---
+
 # MGL
 # OpenGL 4.6 and ES 3.x on Metal
 

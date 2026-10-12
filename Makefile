@@ -235,7 +235,7 @@ mgl_es_lib := $(build_dir)/libmgl_es.dylib
 mgl_toolchain_obj := $(build_dir)/MGL/src/mgl_toolchain.o
 mgl_toolchain_lib := $(build_dir)/libmgl_toolchain.a
 
-$(mgl_lib): $(mgl_core_objs) $(mgl_core_arc_objs) $(mgl_gl_obj)
+$(mgl_lib): $(mgl_core_objs) $(mgl_core_arc_objs) $(mgl_core_obj)
 	@mkdir -p $(dir $@)
 	$(CC) -D$(CFLAGS_GL_CORE) -dynamiclib -o $@ $^ $(LIBS)
 	# loading dynamic library requires this
